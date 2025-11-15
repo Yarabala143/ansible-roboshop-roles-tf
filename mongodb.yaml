@@ -1,0 +1,5 @@
+- name: setup mongodb server
+  hosts: mongodb.yarabala.space
+  become: yes
+  roles:
+  - mongodb
