@@ -1,6 +1,7 @@
 MONGODB_HOST: mongodb-{{ env }}.yarabala.space # mongodb-dev.yarabala.space
 REDIS_HOST: redis-{{ env }}.yarabala.space
-CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.yarabala.space
+# CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.yarabala.space
+CATALOGUE_HOST: catalogue-{{ env }}.yarabala.space
 CART_HOST: cart.backend-alb-{{ env }}.yarabala.space
 USER_HOST: user.backend-alb-{{ env }}.yarabala.space
 RABBITMQ_HOST: rabbitmq-{{ env }}.yarabala.space
